@@ -35,7 +35,7 @@ imagen_ruido3 = imagen_ruido3 / 255.0
 #Parametros de la tabla
 max_iter = 1000
 eps = 1e-6
-lr = 0.001
+lr = 0.004
 lam = 0.1
 eta=0.9
 

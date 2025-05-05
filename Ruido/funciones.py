@@ -10,7 +10,7 @@ def añadir_ruido(url, cnt_ruido):
     plt.imsave('Ruido/imagenes/nutria_grises.jpg', imagen_grises, cmap='gray')
     plt.imsave('Ruido/imagenes/nutria_ruido.jpg', imagen_ruido, cmap='gray')
     fig, ax = plt.subplots(1, 3, figsize=(10, 5))
-    ax[0].imshow(imagen_grises, cmap='gray')
+    ax[0].imshow(img, cmap='gray')
     ax[0].set_title('Imagen Original')
     ax[0].axis('off')
     ax[1].imshow(imagen_grises, cmap='gray')
